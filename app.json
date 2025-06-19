@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "client",
+    "name": "musalah-student-teacher",
     "slug": "client",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.hamida2024.clientstudentteacherversion"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +37,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "c869eefa-8414-4fbe-8700-98a2b3d46f84"
+      }
+    },
+    "owner": "hamida2024"
   }
 }
